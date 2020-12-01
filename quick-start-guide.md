@@ -8,19 +8,20 @@
 
 
 ### Information to have ready before you start
-| Required                                                                      |
-|:------------------------------------------------------------------------------|
-| Latitude of sensor in decimal degrees                                         |
-| Longitude of sensor in decimal degrees                                        |
-| Sensor make and model                                                         |
-| Description of sensor deployment setup (water body type, deployment structure)|
-| Parameters measured and accompanying units                                    |
+| Required                                                                                       |
+|:-----------------------------------------------------------------------------------------------|
+| Name of data columns and files within the data package that contain data from the given sensor |
+| Latitude of sensor in decimal degrees                                                          |
+| Longitude of sensor in decimal degrees                                                         |
+| Sensor make and model                                                                          |
+| Description of sensor deployment setup (water body type, deployment structure)                 |
+| Parameters measured and accompanying units                                                     |
   
   
-| Optional                                                                                                                 |
+| Recommended                                                                                                                 |
 |:-------------------------------------------------------------------------------------------------------------------------|
-| Name of data files within the data package that contain data from the given sensor                                       |
 | Sensor ID                                                                                                                |
+| Parent ID (if sonde has multiple sensors)                                                                                |
 | Start and end date/time of deployment                                                                                    |
 | Real clock time at a given point in time and concurrent sensor clock time                                                |
 | Sensor serial number from manufacturer                                                                                   |
