@@ -9,7 +9,7 @@ SCOPE - This reporting format is intended for water level, temperature, electric
 
 SUMMARY - This standard uses a **three file system to organize data, sensor metadata, and terminology metadata.** The reporting format is designed to be flexible for each user’s needs. If the user has measured parameters outside the scope or has other columns they would like to add, they should do so. Aside from required fields, the user should only populate their file with the fields relevant to their data. 
 
-CONTENT - This folder includes 7 files in addition to the readme. **Required Fields** includes the information that must be contained in the submitted files. Users can choose items listed in **Optional Fields** as they see fit; however we strongly suggest users populate all fields for which they have information. **Recommended Vocabulary** lists preferred terms with units and definitions.  The other three files are **templates**. The **Data** File is for sensor-based data collected in the field. The **Sensor** File is for metadata about the sensors and the locations used to generate the data. The **Terminology** File allows users to define column headers and terms used throughout the files (i.e., data flags, missing value terms). 
+CONTENT - This folder includes 5 files in addition to the readme. The **Quick Start Guide** has short, simple directions for using the reporting format. **Recommended Vocabulary** lists preferred terms with units and definitions. The other three files are **templates**. The **Data** File is for sensor-based data collected in the field. The **Sensor** File is for metadata about the sensors and the locations used to generate the data. The **Terminology** File allows users to define column headers and terms used throughout the files (i.e., data flags, missing value terms). The templates indicate **required fields** includes the information that must be contained in the submitted files. Users can choose items listed in **optional fields** as they see fit; however we strongly suggest users populate all fields for which they have information. Scroll down for screengrabs of the templates.
 
 COLUMN HEADERS - **For the Sensor and Terminology Files, column headers terms must match those listed in the templates.** These column headers are not required to be defined in the Terminology File, because they must match the template terms. **For the Data File(s), column header terms are recommended and listed in the Recommended Vocabulary file.** If non-recommended column header terms are chosen for the Data File(s), they must have no spaces and only use underscores as special characters. The preferred format is to use underscores to separate units from a measurement term  (e.g., SpC_uScm). **All column headers from the Data File(s) must be defined in the Terminology File.** Definitions should be copy and pasted from the Recommended Vocabulary file unless a term is not listed there. Additional detail such as the water body type or depth at which the measurement was taken should be defined in the appropriate Sensor File fields. 
 
@@ -29,6 +29,21 @@ MULTIPLE SENSORS - Data from multiple sensors can be handled in several differen
 WATER LEVEL TERMS - See the graphic below for a visual representation of the terms listed in the Recommended Vocabulary file. Some measurements have multiple synonymous terms. This is due to the diversity of hydrologic terms and communities. The user can choose the terms they prefer.
 ![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/HydroMonitoringTerms_v3_vert.png "Recommended vocaulary terms related to water level")
 
+
+## A Quick Look at the Templates
+Screengrabs of color-coded versions of the templates are below and in the graphics folder. The csv version of the templates are included in the file list for use.
+
+Data File template:
+![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/screengrab_DataTemplate.JPG "Data File template")
+
+Sensor File template (left side):
+![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/screengrab_SensorTemplate_part1.JPG "Sensor File template (left side)")
+
+Sensor File template (right side):
+![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/screengrab_SensorTemplate_part2.JPG "Sensor File template (right side)")
+
+Terminology File template:
+![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/screengrab_TerminologyTemplate.JPG "Terminology File template")
 
 
 ## Licensing Information
