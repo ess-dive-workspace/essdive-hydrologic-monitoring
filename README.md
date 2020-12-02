@@ -27,7 +27,8 @@ MULTIPLE SENSORS - Data from multiple sensors can be handled in several differen
 [insert graphic]
 
 WATER LEVEL TERMS - See the graphic below for a visual representation of the terms listed in the Recommended Vocabulary file. Some measurements have multiple synonymous terms. This is due to the diversity of hydrologic terms and communities. The user can choose the terms they prefer.
-[insert graphic]
+![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/HydroMonitoringTerms_v3_vert.png "Recommended vocaulary terms related to water level")
+
 
 
 ## Licensing Information
