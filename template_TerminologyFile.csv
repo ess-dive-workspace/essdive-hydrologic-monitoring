@@ -1,0 +1,15 @@
+Terminology File,,,,,,
+"*Required fields: Term, TermType, Definition, Units, RecommendedTerm (columns B-F). Column headers must match exactly with template terms unless the user adds columns not specified. Template terms do not need to be defined in Terminology File.*",,,,,,
+Delete column A and rows 1-3 and 5-15 prior to use,,,,,,
+Columns,Term,TermType,Definition,Units,RecommendedTerm,AssociatedFileNames
+Contains,"Exact terms used in Data File(s) for column headers, empty cells, and data flags. Can also include other terms to aid the user (e.g., acronyms used for site names). Does not need to include column headers from Sensor File.","Choose from the following controlled vocabulary: column header, term",Definition of term (copy and paste from Recommended Vocabulary file if applicable),Units of term written out fully (copy and paste from Recommended Vocabulary file if applicable),Term listed in the RecommendedVocabulary file for the same parameter (if applicable),Names of files in which the term is used
+Example,cond,Column header,Specific conductivity,Millisiemens per centimeter,SpC_mScm,Well_399-2-23_data.csv
+Example,SpC_uScm,Column header,Specific conductivity,Microsiemens per centimeter,SpC_uScm,Wells_399-4_data.csv
+Example,WaterTemp_50cmDepth_DegC,Column header,Water temperature,Degrees celsius,WaterTemp_DegC,Well_399-2-23_data.csv
+Example,WaterTemp_DegC,Column header,Water temperature,Degrees celsius,WaterTemp_DegC,Wells_399-4_data.csv; Well_399-2-23_data.csv
+Example,PoreWater_DO_pct,Column header,Dissolved oxygen,Percent saturation,DO_pct,Well_399-2-23_data.csv
+Example,DO_pct,Column header,Dissolved oxygen,Percent saturation,DO_pct,Wells_399-4_data.csv
+Example,DataFlag_01,Term,Questionable DO value. Unknown reason. Suggest not using value. Temperature value is fine.,NA,NA,Wells_399-4_data.csv
+Example,NA,Term,Missing text,NA,NA,Wells_399-4_data.csv; Well_399-2-23_data.csv
+Example,-9999,Term,Missing value,NA,-9999,Wells_399-4_data.csv; Well_399-2-23_data.csv
+Example,CR,Term,Columbia River,NA,NA,Well_399-2-23_data.csv

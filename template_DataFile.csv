@@ -1,0 +1,11 @@
+Data File,,,,,,,,
+*Required fields: DateTime_UTC (column B)*,,,,,,,,
+*Suggested format for parameter column headers is in Recommended Vocabulary File. User can decide to use other column headers. All column headers must be defined in Terminology File.*,,,,,,,,
+Delete column A and rows 1-4 and 6-11 prior to template use.,,,,,,,,
+Columns,DateTime_UTC,LocalDateTime_[TimeZone],SpC_uScm,WaterTemp_DegC,DO_mgL,SensorID,DataFlag,Notes
+Contains,Date and time of measurement (YYYY-MM-DD hh:mm:ss) (recommended in UTC),"Local date and time of measurement (YYYY-MM-DD hh:mm:ss). Populate bracket with time zone acronym (e.g., PST) or UTC offset (e.g., UTCminus2)",Example parameter. User should only include paramaters for their dataset. See Recommended Vocabulary file.,Example parameter. User should only include paramaters for their dataset. See Recommended Vocabulary file.,Example parameter. User should only include paramaters for their dataset. See Recommended Vocabulary file.,User-determined ID for the sensor or multi-parameter sonde. Include if one data column contains data from multiple sensors.,Alphanumeric code (defined by user in terminology file) to indicate information about measurement,Free text notes
+Example, 2020-05-14 13:30, 2020-05-14 5:30,NA,13.1,10.2,MP_012,NA,Continuation of prior deployment. 10m depth.
+Example, 2020-05-14 13:45, 2020-05-14 5:45,NA,13.2,6.1,MP_012,DataFlag_01,NA
+Example, 2020-05-14 14:00, 2020-05-14 6:00,NA,13.1,NA,SC_004,NA,Removed sonde and replaced with new sensor. No DO.
+Example, 2020-05-14 13:30, 2020-05-14 5:30,132,15.6,NA,SC_001,NA,Start of sensor deployment. 30m depth.
+Example, 2020-05-14 13:45, 2020-05-14 5:45,134,15.5,NA,SC_001,NA,NA
