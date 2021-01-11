@@ -1,6 +1,6 @@
 # ESS-DIVE Hydrological Monitoring Reporting Format
 
-## Getting started
+## Getting started [This Reporting Format content is in draft form and incomplete.]
 
 ## How to contribute
 
