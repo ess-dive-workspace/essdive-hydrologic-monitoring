@@ -1,0 +1,36 @@
+Suggested Column Header (see readme for an accompanying diagram of water level terms),Definition (can be copy and pasted into terminology file after replacing words in brackets),Units (can be copy and pasted into terminology file),Footnote,"Notes (see diagram of terms in ""Diagram"" tab"")"
+GaugeHeight_m,Vertical distance from [the chosen reference point in the water body] up to the water surface. ,Meters,*,"Replace the general text to specify the chosen reference point if known. A common reference point is the streambed. Gauge height, gage height, and stage are the same. Gauge height is the preferred term. Stage is ambiguous."
+GaugeHeight_cm,Vertical distance from [the chosen reference point in the water body] up to the water surface. ,Centimeters,*,See GaugeHeight_m notes
+WaterColumnHeight_m,Vertical distance from [the chosen reference point in the water body] up to the water surface. ,Meters,*,See GaugeHeight_m notes
+WaterColumnHeight_cm,Vertical distance from [the chosen reference point in the water body] up to the water surface. ,Centimeters,*,See GaugeHeight_m notes
+SensorDepth_m,Vertical distance from the sensor up to [the chosen reference point above the sensor]. ,Meters,*,"Replace the general text to specify the reference point (e.g., water surface, top of well casing). A use case for this measurement is lowering a sensor from a lake surface down to specific water depths to capture stratification."
+SensorDepth_cm,Vertical distance from the sensor up to [the chosen reference point above the sensor]. ,Centimeters,*,See SensorDepth_m notes
+SensorHeight_m,Vertical distance from [the chosen reference point below the sensor] up to the sensor,Meters,*,"Replace the general text to specify the chosen reference point. A common reference point is the lakebed or streambed. Depending on the design of the installation, this value may be stable through time and allow for calculating water depth from the logged sensor values in a dynamic waterbody."
+SensorHeight_cm,Vertical distance from [the chosen reference point below the sensor] up to the sensor,Centimeters,*,See SensorHeight_m notes
+DepthToWater_m,Vertical distance from [the chosen reference point out of the water body] down to the water surface.,Meters,*,Replace the general text to specify the chosen reference point. A use case for this measurement is lowering a sensor from the top of a well casing down to the water surface.
+DepthToWater_cm,Vertical distance from [the chosen reference point out of the water body] down to the water surface.,Centimeters,*,See DepthToWater_m notes
+WaterLevel_m,[See notes column],Meters,,"It is strongly suggested that this term is avoided due to its ambiguity. If the user still chooses it, it must be explicitly defined in as must detail as possible in the Terminology File. Review the definitions of the other water-related terms to consider information to include."
+WaterSurfaceElevation_masl,Elevation of the surface of the water body. ,Meters above mean sea level (NAVD88),,"Note that this is water surface elevation rather than surface water elevation. This measurement refers to the elevation of the surface of any type of water body, including groundwater wells etc. The vertical datum must be defined in the Terminology file's Units field. NAVD88 is preferred."
+TotalHydraulicHead_masl,Elevation of the surface of the water column.,Meters above mean sea level (NAVD88),,The vertical datum must be defined in the Terminology file's Units field. NAVD88 is preferred. This is equivalent to water surface elevation.
+TotalHydraulicHead_m,Elevation of the surface of the water column above [the chosen datum],Meters,*,"Chosen datum must be defined. If the elevation of the datum is known, list it."
+UnventedSensorPressure_kPa,Pressure exerted by the water column and atmosphere above the sensor,Kilopascals,,An unvented pressure sensor that has not been corrected for barometric pressure measures total pressure. Suggest noting the sensor is unvented in the Sensor file's SensorNotes field.
+UnventedSensorPressure_mH2O,Pressure exerted by the water column and atmosphere above the sensor,Meters of H2O,,An unvented pressure sensor that has not been corrected for barometric pressure measures total pressure. Suggest noting the sensor is unvented in the Sensor file's SensorNotes field.
+VentedSensorPressure_kPa,Pressure exerted by the water column above the sensor,Kilopascals,,A vented pressure sensor measures only the pressure exerted from the water column and does not need to be corrected for barometric pressure. 
+VentedSensorPressure_mH2O,Pressure exerted by the water column above the sensor,Meters of H2O,,A vented pressure sensor measures only the pressure exerted from the water column and does not need to be corrected for barometric pressure. 
+CorrSensorPressure_kPa,Pressure exerted by the water column above the sensor measured by an unvented pressure sensor and corrected for barometric pressure.,Kilopascals,,
+CorrSensorPressure_mH2O,Pressure exerted by the water column above the sensor measured by an unvented pressure sensor and corrected for barometric pressure.,Meters of H2O,,
+PressureHead_mH2O,Pressure in meters of H2O exerted by the column of water above the [middle] of the [well or piezometer] screen,Meters of H2O,*,Replace bracketed text to specify the well or piezometer. Replace 'middle' with correct information if placement differs.
+EC_uScm,Electrical conductivity,MicroSiemens Per Centimeter,**,"To avoid formatting errors, note this uses lowercase 'u'  when representing micro instead of the special character 'mu'."
+EC_mScm,Electrical conductivity,MilliSiemens Per Centimeter,**,
+SpC_uScm,Specific conductance,MicroSiemens Per Centimeter,**,"To avoid formatting errors, note this uses lowercase 'u'  when representing micro instead of the special character 'mu'."
+SpC_mScm,Specific conductance,MilliSiemens Per Centimeter,**,
+DO_mgL,Dissolved oxygen,Milligrams Per Liter,**,"Suggest describing the location the measurement was taken in the Sensor file's SensorContextNotes field (i.e., 50% water column depth)"
+DO_pct,Dissolved oxygen,Percent Saturation,**,"Suggest describing the location the measurement was taken in the Sensor file's SensorContextNotes field (i.e., 50% water column depth)"
+WaterTemp_DegC,Water temperature,Degrees Celsius,**,"Suggest describing the location the measurement was taken in the Sensor file's SensorContextNotes field (i.e., 50% water column depth)"
+pH,pH,NA,**,"Suggest describing the location the measurement was taken in the Sensor file's SensorContextNotes field (i.e., 50% water column depth)"
+Suggested Term,Definition,Units,,
+NA,Missing text,NA,,
+-9999,Missing value,NA,,
+,,,,
+*Words within brackets should be modified with the appropriate details from the deployment,,,,
+"**Base terms can have suffixes added if needed to differentiate columns or to add detail. Suggested suffixes include: _SurfaceWater, _PoreWater, _Groundwater, _VariablyInundated. The resulting column header would be in the format ""SpC_uScm_SurfaceWater"" and in the terminology file, the RecommendedBaseTerm column would list the suggested column header without the suffix (i.e., ""SpC_uScm""). Most detail should be described via the sensor file rather than in the suffix.",,,,
