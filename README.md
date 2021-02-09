@@ -2,8 +2,6 @@
 
 ## Getting started [This Reporting Format content is in draft form and incomplete.]
 
-## How to contribute
-
 ## About the Hydrological Monitoring Reporting Format
 SCOPE - This reporting format is intended for water level, temperature, electrical conductivity, specific conductivity, dissolved oxygen, and pH measured in situ using sensors deployed in water bodies.
 
@@ -46,8 +44,15 @@ Terminology File template:
 ![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/TerminologyFile_template.PNG "Terminology File template")
 
 
+## How to contribute
+This ESS-DIVE Hydrologic Monitoring Reporting Format is evolving and growing to meet the needs of the community. Feedback and new contributions are welcome. If you would like to suggest a change to the Reporting Format please submit a GitHub issue using one of the templates we provide.
+
+If you have any questions about this reporting format, you can also directly email ESS-DIVE support at ess-dive-support@lbl.gov. Our issue templates were based on those used by Darwin Core (Darwin Core maintenance group, Biodiversity Information Standards (TDWG) (2014). Darwin Core. Zenodo. https://doi.org/10.5281/zenodo.592792)
+
 ## Licensing Information
+This repository content is licensed for use under the CC BY 4.0 license (https://creativecommons.org/licenses/by/4.0/)
 
 ## Funding and acknowledgements
+Funding for the development of ESS-DIVE Hydrologic Monitoring Reporting Format was provided by the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research, Climate and Environmental Science Division, Data Management program
 
 ## Recommended citation
