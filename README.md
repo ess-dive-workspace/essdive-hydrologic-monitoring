@@ -6,44 +6,13 @@ SCOPE - This reporting format is intended for water level, temperature, electric
 SUMMARY - This standard uses a **three file system to organize data, sensor metadata, and terminology metadata.** The reporting format is designed to be flexible for each user’s needs. If the user has measured parameters outside the scope or has other columns they would like to add, they should do so. Aside from required fields, the user should only populate their file with the fields relevant to their data. 
 
 ## Quickstart Guide for Hydrologic Monitoring Data and Metadata ESS-DIVE Reporting Format  
-1 - **Read the Instructions file**  
+1 - **Read the Instructions file** and **Term Guide file**  
 
 2 - **Open the three templates (Data, Sensor, Terminology).** If you have more than one data file or more than one sensor, you have a few options for the total number of files. See the instructions file for details and a graphic depicting the options.
   
 3 - **Open the Recommended Vocabulary File** for suggested column headers for your Data File. If you choose to use your own, the only allowed special characters are underscores and hyphens. No spaces are allowed.
   
-4 - **Populate all required fields** in the templates and **populate optional fields as desired**. Note that two fields in the Sensor File and the Terminology File have controlled vocabularies. Exclude the optional columns you do not populate. No empty cells are permitted. 
-
-### Summary of information to have ready before you start
-**Find the full list of fields to populate in the Term Guide file**
-| Required                                                                                       |
-|:-----------------------------------------------------------------------------------------------|
-| Name of data columns and files within the data package that contain data from the given sensor |
-| Latitude of sensor in decimal degrees WGS84                                                    |
-| Longitude of sensor in decimal degrees WGS84                                                   |
-| Sensor make and model                                                                          |
-| Description of sensor deployment setup (water body type, deployment structure)                 |
-| Parameters measured and accompanying units                                                     |
-  
-  
-| Recommended                                                                                                              |
-|:-------------------------------------------------------------------------------------------------------------------------|
-| Name of water body                                                                                                       |
-| Name of site                                                                                                             |
-| Sensor ID                                                                                                                |
-| Start and end date/time of deployment                                                                                    |
-| Real clock time at a given point in time and concurrent sensor clock time                                                |
-| Make and model of specific parameter probe on a multi-parameter sonde                                                    |
-| Sensor serial number from manufacturer                                                                                   |
-| Sensor accuracy  from manufacturer                                                                                       |
-| Sensor range from manufacturer                                                                                           |
-| Sensor calibration in brief or a document or reference to point to                                                       |
-| Data QA/QC in brief or a document or reference to point to                                                               |
-| Type of measurement interval of sensor (fixed, event-generated)                                                          |
-| Software version of sensor and/or sensor communication program                                                           |
-| Other sensors outputting data that can be combined with data from the given sensor (likely due to concurrent co-location)|
-| Other notes to record about the sensor, data, or terminology used                                                        |
-
+4 - **Populate all required fields** in the templates and **populate optional fields as desired**. Note that two fields in the Sensor File and the Terminology File have controlled vocabularies. Exclude the optional columns you do not populate. No empty cells are permitted. **Find the full list of fields to populate in the Term Guide file**
 
 
 ## A Quick Look at the Templates
