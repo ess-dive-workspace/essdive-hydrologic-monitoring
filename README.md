@@ -16,7 +16,7 @@ SUMMARY - This standard uses a **three file system to organize data, sensor meta
 
 
 ## A Quick Look at the Templates
-Screengrabs of color-coded versions of the templates are below and in the graphics folder. The csv version of the templates are included in the file list for use.
+Screengrabs of color-coded versions of the templates in which shaded rows indicate required fields are below and in the graphics folder. The csv version of the templates are included in the file list for use.
 
 Data File template:
 ![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/dataTemplateFig.PNG "Data File template")
