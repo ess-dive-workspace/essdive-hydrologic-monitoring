@@ -19,7 +19,7 @@ SUMMARY - This standard uses a **three file system to organize data, sensor meta
 Screengrabs of color-coded versions of the templates are below and in the graphics folder. The csv version of the templates are included in the file list for use.
 
 Data File template:
-![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/DataFile_template.PNG "Data File template")
+![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/dataTemplateFig.PNG "Data File template")
 
 Sensor File template (left side):
 ![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/SensorFile_template_left.PNG "Sensor File template (left side)")
@@ -28,7 +28,7 @@ Sensor File template (right side):
 ![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/SensorFile_template_right.PNG "Sensor File template (right side)")
 
 Terminology File template:
-![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/TerminologyFile_template.PNG "Terminology File template")
+![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/terminologyTemplateFig.PNG "Terminology File template")
 
 
 ## How to contribute
