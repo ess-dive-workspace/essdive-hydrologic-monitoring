@@ -22,10 +22,10 @@ Data File template:
 ![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/dataTemplateFig.PNG "Data File template")
 
 Sensor File template (left side):
-![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/SensorFile_template_left.PNG "Sensor File template (left side)")
+![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/sensorTemplateFigLeft.PNG "Sensor File template (left side)")
 
 Sensor File template (right side):
-![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/SensorFile_template_right.PNG "Sensor File template (right side)")
+![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/sensorTemplateFigRight.PNG "Sensor File template (right side)")
 
 Terminology File template:
 ![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/terminologyTemplateFig.PNG "Terminology File template")
