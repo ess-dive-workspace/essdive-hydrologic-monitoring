@@ -16,7 +16,7 @@ SUMMARY - This standard uses a **three file system to organize data, location me
 
 
 ## A Quick Look at the Templates
-Screengrabs of color-coded versions of the templates in which shaded rows indicate required fields are below and in the graphics folder. The csv version of the templates are included in the file list for use.
+Screengrabs of templates filled in with example information are below and in the graphics folder. Each template is shown first with only required fields and then again with both required and optional fields. The csv version of the templates are included in the file list for use.
 
 #### Data File template (required fields only):
 ![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/dataTemplateFig_requiredFields.PNG "Data File template (required fields only)")
