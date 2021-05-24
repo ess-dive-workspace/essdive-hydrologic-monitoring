@@ -1,4 +1,4 @@
-# Getting started with the ESS-DIVE Hydrological Monitoring Reporting Format
+# Getting started with the ESS-DIVE Hydrologic Monitoring Reporting Format
 [This Reporting Format content is in draft form and incomplete.]
 ## About the Hydrological Monitoring Reporting Format
 SCOPE - This reporting format is intended for water level, temperature, electrical conductivity, specific conductivity, dissolved oxygen, and pH measured in situ using sensors deployed in water bodies.
