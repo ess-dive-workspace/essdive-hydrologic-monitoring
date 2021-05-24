@@ -1,0 +1,5 @@
+# headerRows_[INSERT NUMBER HERE],,,,,,
+# column: dateTime | units: YYYY-MM-DD hh-mm-ss | UTC offset: [INSERT],,,,,,
+# column: [INSERT] | units: [INSERT] | locationMethodID: [INSERT] | sensorMethodID: [INSERT],,,,,,
+[DUPLICATE ROW 3  AS NEEDED TO ACCOUNT FOR VARIABLE/PARAMETER COLUMNS],,,,,,
+DateTime,[HEADER FOR VARIABLE/PARAMETER],[VARIABLE_methodDeviation],[HEADER FOR VARIABLE/PARAMETER],[VARABLE_methodDeviation],DataFlag,Notes
