@@ -8,9 +8,9 @@ SUMMARY - This standard uses a **three file system to organize data, location me
 ## Quickstart Guide for Hydrologic Monitoring Data and Metadata ESS-DIVE Reporting Format  
 1 - **Read the Instructions file** and **Term Guide file**  
 
-2 - **Open the three templates (Data, Location Metadata, Sensor Metadata).** If you have more than one data file or more than one sensor, you have a few options for the total number of files. See the instructions file for details and a graphic depicting the options.
+2 - **Download the three templates (Data, Location Metadata, Sensor Metadata).** If you have more than one data file or more than one sensor, you have a few options for the total number of files. See the instructions file for details and a graphic depicting the options.
   
-3 - **Open the Recommended Vocabulary File** for suggested column headers for your Data File. If you choose to use your own, the only allowed special characters are underscores and hyphens. No spaces are allowed.
+3 - **Download the Recommended Vocabulary File** for suggested column headers for your Data File. If you choose to use your own, the only allowed special characters are underscores and hyphens. No spaces are allowed.
   
 4 - **Populate all required fields** in the templates and **populate optional fields as desired**. Note that two fields in the Location Metadata have controlled vocabularies. Exclude the optional columns you do not populate. No empty cells are permitted. **Find the full list of fields to populate in the Term Guide file**
 
