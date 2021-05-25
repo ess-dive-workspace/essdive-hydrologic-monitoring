@@ -20,7 +20,7 @@ MULTIPLE SENSORS - Data from multiple sensors can be handled in several differen
 * Approach #1 **[Preferred option]**: One sensor with one data file with one column for WaterTemp.
 * Approach #2: Two sensors compiled in one data file with columns for WaterTemp1 and WaterTemp2.
 * Approach #3: Two sensors compiled in one data file with one column for WaterTemp and one column for sensorID.
-![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/FileStructures2.png "Options for number and structure of files")
+![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/FileStructures2.PNG "Options for number and structure of files")
 
 WATER LEVEL TERMS - See the graphic below for a visual representation of the terms listed in the recommended vocabulary file. Some measurements have multiple synonymous terms. This is due to the diversity of hydrologic terms and communities. The user can choose the terms they prefer. 
 ![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/HydroMonitoringTerms_v3_vert.png "Recommended vocaulary terms related to water level")
