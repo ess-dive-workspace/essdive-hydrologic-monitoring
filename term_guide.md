@@ -1,13 +1,13 @@
 # Hydrologic Monitoring Reporting Format Guide
 
 ## Required Fields
-[DateTime](#datetime) | [MethodID_Location](#methodid_location) | [MethodDescription_Location](#methoddescription_location) | [MethodID_Sensor](#methodid_sensor)   
-[MethodDescription_Sensor](#methoddescription_sensor) | [DateTime_Start](#datetime_start) | [DateTime_End](#datetime_end) | [UTC_Offset](#utc_offset)   
+[DateTime](#datetime) | [MethodID_Location](#methodid_location) | [MethodDescription_Location](#methoddescription_location) | [MethodID_Sensor](#methodid_sensor) | [MethodDescription_Sensor](#methoddescription_sensor) |
 
 ## Optional Fields
 [DataFlag](#dataflag) | [Notes](#notes) | [Latitude](#latitude) | [Longitude](#longitude) | [Depth_Reference](#depth_reference) | [Elevation](#elevation) |
 [Elevation_Reference](#elevation_reference) | [DeploymentEnvironment](#deploymentenvironment) | [Deployment_Configuration](#deployment_configuration) | 
-[Water_Name](#water_name) | [Site_Name](#site_name) | [Site_ID](#site_id) | [Instrument](#instrument)
+[Water_Name](#water_name) | [Site_Name](#site_name) | [Site_ID](#site_id) | [DateTime_Start](#datetime_start) | [DateTime_End](#datetime_end) | 
+[UTC_Offset](#utc_offset) | [Instrument](#instrument)
 
 
 ---
@@ -65,35 +65,7 @@
 |**format_required_or_recommended**|Recommended|
 |**examples**|Temperature and dissolved oxygen logged at 15 minute intervals. See DO_calib.txt for description of calibration protocol.|
 
-### DateTime_Start
-|Metadata_Element|DateTime_Start|
-|:----------------------------------------------------|:----------------------------------------------------|
-|**required_recommended_or_optional**|Required|
-|**file**|Sensor Methods|
-|**description**|Date and time sensor use began|
-|**format**|YYYY-MM-DD hh:mm:ss|
-|**format_required_or_recommended**|Required|
-|**examples**|2020-03-25 13:25|
 
-### DateTime_End
-|Metadata_Element|DateTime_End|
-|:----------------------------------------------------|:----------------------------------------------------|
-|**required_recommended_or_optional**|Required|
-|**file**|Sensor Methods|
-|**description**|Date and time sensor use ended|
-|**format**|YYYY-MM-DD hh:mm:ss|
-|**format_required_or_recommended**|Required|
-|**examples**|2020-03-25 15:45|
-
-### UTC_Offset
-|Metadata_Element|UTC_Offset|
-|:----------------------------------------------------|:----------------------------------------------------|
-|**required_recommended_or_optional**|Required|
-|**file**|Sensor Methods|
-|**description**|UTC offset of DateTime_Start and DateTime_End.|
-|**format**|Numeric|
-|**format_required_or_recommended**|Required|
-|**examples**|-2|
 
 
 ## Optional Fields
@@ -260,6 +232,36 @@
 |**description**|ID of site|
 |**format**|Alphanumeric|
 |**examples**|SWS-1|
+
+### DateTime_Start
+|Metadata_Element|DateTime_Start|
+|:----------------------------------------------------|:----------------------------------------------------|
+|**required_recommended_or_optional**|Required|
+|**file**|Sensor Methods|
+|**description**|Date and time sensor use began|
+|**format**|YYYY-MM-DD hh:mm:ss|
+|**format_required_or_recommended**|Required|
+|**examples**|2020-03-25 13:25|
+
+### DateTime_End
+|Metadata_Element|DateTime_End|
+|:----------------------------------------------------|:----------------------------------------------------|
+|**required_recommended_or_optional**|Required|
+|**file**|Sensor Methods|
+|**description**|Date and time sensor use ended|
+|**format**|YYYY-MM-DD hh:mm:ss|
+|**format_required_or_recommended**|Required|
+|**examples**|2020-03-25 15:45|
+
+### UTC_Offset
+|Metadata_Element|UTC_Offset|
+|:----------------------------------------------------|:----------------------------------------------------|
+|**required_recommended_or_optional**|Required|
+|**file**|Sensor Methods|
+|**description**|UTC offset of DateTime_Start and DateTime_End.|
+|**format**|Numeric|
+|**format_required_or_recommended**|Required|
+|**examples**|-2|
 
 ### Instrument
 |Metadata_Element|Instrument|
