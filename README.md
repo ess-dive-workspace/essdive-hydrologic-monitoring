@@ -3,12 +3,12 @@
 ## About the Hydrological Monitoring Reporting Format
 SCOPE - This reporting format is intended for water level, temperature, electrical conductivity, specific conductivity, dissolved oxygen, and pH measured in situ using sensors deployed in water bodies.
 
-SUMMARY - This standard uses a **three file system to organize data, location metadata, and sensor metadata.** The reporting format is designed to be flexible for each user’s needs. If the user has measured parameters outside the scope or has other columns they would like to add, they should do so. Aside from required fields, the user should only populate their file with the fields relevant to their data. 
+SUMMARY - This standard uses a **three file system to organize data, location methods metadata, and sensor methods metadata.** The reporting format is designed to be flexible for each user’s needs. If the user has measured parameters outside the scope or has other columns they would like to add, they should do so. Aside from required fields, the user should only populate their file with the fields relevant to their data. 
 
 ## Quickstart Guide for Hydrologic Monitoring Data and Metadata ESS-DIVE Reporting Format  
 1 - **Read the Instructions file** and **Term Guide file**  
 
-2 - **Download the three templates (Data, Location Metadata, Sensor Metadata).** If you have more than one data file or more than one sensor, you have a few options for the total number of files. See the instructions file for details and a graphic depicting the options.
+2 - **Download the three templates (Data, Location Methods, Sensor Methods).** If you have more than one data file or more than one sensor, you have a few options for the total number of files. See the instructions file for details and a graphic depicting the options.
   
 3 - **Download the Recommended Vocabulary File** for suggested column headers for your Data File. If you choose to use your own, the only allowed special characters are underscores and hyphens. No spaces are allowed.
   
@@ -23,15 +23,15 @@ Screengrabs of templates filled in with example information are below and in the
 #### Data File template (required and optional fields):
 ![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/dataTemplateFig_allFields.PNG "Data File template (all fields)")
 
-#### Location Metadata template (required fields only):
+#### Location Methods template (required fields only):
 ![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/locationTemplateFig_requiredFields.PNG "Location Metadata template (required fields only)")
 
-#### Location Metadata template (required and optional fields):
+#### Location Methods template (required and optional fields):
 ![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/locationTemplateFig_allFields.PNG "Location Metadata template (all fields)")
 
-#### Sensor Metadata template (required fields only):
+#### Sensor Methods template (required fields only):
 ![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/sensorTemplateFig_requiredFields2.PNG "Sensor Metadata template (required fields only)")
-#### Sensor Metadata template (required and optional fields):
+#### Sensor Methods template (required and optional fields):
 ![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/sensorTemplateFig_allFields2.PNG "Sensor Metadata template (all fields)")
 
 
