@@ -1,10 +1,38 @@
 # ESS-DIVE Hydrological Monitoring Reporting Format Instructions
 
-SCOPE - This reporting format is intended for water level, temperature, electrical conductivity, specific conductivity, dissolved oxygen, and pH measured in situ using sensors deployed in water bodies.
+#### SCOPE 
+* The ESS-DIVE Hydrologic Monitoring Reporting Format (RF) is intended for water level, temperature, electrical conductivity, specific conductance, dissolved oxygen, and pH data measured in situ using sensors deployed in water bodies. **The user can also include data from variables/parameters outside the scope.**
+* This RF is designed to be flexible for each user’s needs. Aside from required template fields, the user should only populate their file with the template fields relevant to their data. **The user can also include other columns beyond what is specified in the templates.**
+* This RF is designed to comply with other ESS-DIVE RFs, including the ESS-DIVE File Level Metadata (FLMD) and CSV RFs.  
 
-SUMMARY - This reporting format includes a **data file template, a location method metadata template, a sensor method metadata template,  a file level metadata template, and four data dictionary templates**. The reporting format is designed to be flexible for each user’s needs. If the user has measured parameters outside the scope or has other columns they would like to add to the data file or metadata templates, they should do so. Aside from required fields, the user should only populate their file with the fields relevant to their data. 
+#### CONTENT - This Reporting Format includes the following 
+* Two guidance documents
+  * This Instructions file.
+  * Recommended vocabulary: A file with recommended column headers for measured variables.
+* Four templates for required files that are available as MS Excel spreadsheets with instructions and examples and as csv templates with no  guidance content. The user must save their final populated files as csv files.
+  * (1) Data File template: A template for sensor data. 
+  * (2) Installation Methods template: A template for metadata about the installation (i.e., location, type of water body).
+  * (3) File-Level Metadata template: A template for listing a file name and description for every file included in the dataset (requirement of FLMD RF). 
+  * (4) Data Dictionary template: A template for defining information about column headers and other terms contained in any csv files from the dataset (requirement of FLMD RF).
+    *  Users may choose to provide a single data dictionary to describe column headers provided across all files or create a separate data dictionary for each csv file.
 
-CONTENT - This reporting format includes 9 files in addition to the readme. The **data file template** is for sensor-based data collected in the field.  The **location method metadata and sensor method metadata templates** are for metadata about the sensor- and location-based methods used to generate the data. The **recommended vocabulary** file has recommended column headers for variables measured. In addition, there are **four files included to meet the requirements set forth in the ESS-DIVE File Level Metadata (FLMD) Reporting Format and the ESS-DIVE CSV Reporting Format**: an FLMD file, a data dictionary for the FLMD file, and data dictionaries for the data file template, the location metadata template, and the sensor metadata template. 
+#### NAMING CONVENTION
+* We strongly encourage users to put descriptive information in their data file names (e.g., site name, coordinates, or time period). 
+* We recommend naming the Installation Methods file, FLMD file, and Data Dictionary csv files “InstallationMethods.csv”, “FLMD.csv”, and “dd.csv”, respectively.
+  * If the user chooses to create separate data dictionary files for each csv  file, we recommend naming them the same as the data file with “_dd” appended (e.g., WellData.csv and WellData_dd.csv; RiverData.csv and RiverData_dd.csv).
+
+#### COLUMN HEADERS
+* **Column headers must not contain spaces** and **must use only underscores** as special characters.
+* **All column headers must be defined in a data dictionary file.** 
+  * When possible, copy and paste definitions from the recommended vocabulary file and use the data dictionary template’s pre-populated definitions.
+* **For the data file(s), recommended column headers for measured variables are listed in the recommended vocabulary file.** The user can choose to use non-recommended column headers in their data file(s) for measured variables.
+* **The column headers for  the Installation Methods file, FLMD file, and Data Dictionary csv files listed in the templates must not be modified.** 
+  * However, if an optional column header is not needed in the user’s file, the entire column can be omitted from the file. 
+* In all file types, if the provided column headers do not capture all the needed information, the **user may choose to include additional columns not specified in the templates.** 
+
+
+
+
 
 COLUMN HEADERS - **For the location and sensor metadata file, the FLMD file, and the data dictionary files,  column headers must match those listed in the templates. For the data file(s), column headers are recommended and listed in the recommended vocabulary file.** If non-recommended column header terms are chosen for the data file(s), they must have no spaces and only use underscores as special characters. **All column headers must be defined in the appropriate data dictionary files**. For the data file data dictionary, definitions should be copied and pasted from the recommended vocabulary file unless a term is not listed there. 
 
