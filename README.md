@@ -1,22 +1,20 @@
 # Getting started with the ESS-DIVE Hydrologic Monitoring Reporting Format
 [This Reporting Format content is in draft form and incomplete.]
 ## About the Hydrological Monitoring Reporting Format
-SCOPE - This reporting format is intended for water level, temperature, electrical conductivity, specific conductivity, dissolved oxygen, and pH measured in situ using sensors deployed in water bodies.
+The ESS-DIVE Hydrologic Monitoring Reporting Format is intended for water level, temperature, electrical conductivity, specific conductance, dissolved oxygen, and pH data measured in situ using sensors deployed in water bodies. The user can also include data from variables/parameters outside the scope.
 
-SUMMARY - This standard uses a **three file system to organize data, location methods metadata, and sensor methods metadata.** The reporting format is designed to be flexible for each user’s needs. If the user has measured parameters outside the scope or has other columns they would like to add, they should do so. Aside from required fields, the user should only populate their file with the fields relevant to their data. 
+## Quickstart Guide
+1 - **Read the Instructions file** 
 
-## Quickstart Guide for Hydrologic Monitoring Data and Metadata ESS-DIVE Reporting Format  
-1 - **Read the Instructions file** and **Term Guide file**  
-
-2 - **Download the three templates (Data, Location Methods, Sensor Methods).** If you have more than one data file or more than one sensor, you have a few options for the total number of files. See the instructions file for details and a graphic depicting the options.
+2 - **Download the four templates (Data, Installation Methods, File-Level Metdata, Data Dictionary).** There are MS Excel versions with instructions and examples included, and there are csv versions with no guidance content. See the **Term Guide** for guidance as needed.
   
-3 - **Download the Recommended Vocabulary File** for suggested column headers for your Data File. If you choose to use your own, the only allowed special characters are underscores and hyphens. No spaces are allowed.
+3 - **Download the Recommended Vocabulary File** for suggested column headers for your data file(s). If you choose to use your own column headers, the only allowed special characters are underscores and hyphens. No spaces are allowed.
   
-4 - **Populate all required fields** in the templates and **populate optional fields as desired**. Note that two fields in the Location Metadata have controlled vocabularies. Exclude the optional columns you do not populate. No empty cells are permitted. **Find the full list of fields to populate in the Term Guide file**
+4 - **Populate all required fields** in the templates and **populate optional fields as desired**. No empty cells are permitted. Omit the optional columns you do not populate.  **Find the full list of fields to populate in the MS Excel templates** and in the **Term Guide file**
 
 
 ## A Quick Look at the Templates
-Screengrabs of templates filled in with example information are below and in the graphics folder. Each template is shown first with only required fields and then again with both required and optional fields. The csv version of the templates are included in the file list for use. 
+Screengrabs of the Data File and Installation Methods templates with the required fields filled in with example information are below. The MS Excel templates include these examples and examples that include optional fields. 
 
 #### Data File template (required fields only):
 ![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/Graphic_Quick-Look_Required-Fields_Data.PNG "Data File template (required fields only)")
@@ -34,6 +32,6 @@ If you have any questions about this reporting format, you can also directly ema
 This repository content is licensed for use under the CC BY 4.0 license (https://creativecommons.org/licenses/by/4.0/)
 
 ## Funding and acknowledgements
-Funding for the development of ESS-DIVE Hydrologic Monitoring Reporting Format was provided by the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research, Climate and Environmental Science Division, Data Management program
+Funding for the development of ESS-DIVE Hydrologic Monitoring Reporting Format was provided by the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research, Climate and Environmental Science Division, Data Management program.
 
 ## Recommended citation
