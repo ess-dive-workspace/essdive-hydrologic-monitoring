@@ -19,20 +19,10 @@ SUMMARY - This standard uses a **three file system to organize data, location me
 Screengrabs of templates filled in with example information are below and in the graphics folder. Each template is shown first with only required fields and then again with both required and optional fields. The csv version of the templates are included in the file list for use. 
 
 #### Data File template (required fields only):
-![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/dataTemplateFig_requiredFields2.PNG "Data File template (required fields only)")
-#### Data File template (required and optional fields):
-![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/dataTemplateFig_allFields.PNG "Data File template (all fields)")
+![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/Graphic_Quick-Look_Required-Fields_Data.PNG "Data File template (required fields only)")
 
-#### Location Methods template (required fields only):
-![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/locationTemplateFig_requiredFields.PNG "Location Metadata template (required fields only)")
-
-#### Location Methods template (required and optional fields):
-![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/locationTemplateFig_allFields.PNG "Location Metadata template (all fields)")
-
-#### Sensor Methods template (required fields only):
-![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/sensorTemplateFig_requiredFields2.PNG "Sensor Metadata template (required fields only)")
-#### Sensor Methods template (required and optional fields):
-![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/sensorTemplateFig_allFields2.PNG "Sensor Metadata template (all fields)")
+#### Installation Methods template (required fields only):
+![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/Graphic_Quick-Look_Required-Fields_InstallationMethods.PNG "Sensor Metadata template (required fields only)")
 
 
 ## How to contribute
