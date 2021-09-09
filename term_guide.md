@@ -19,7 +19,7 @@
 |**File**|Data File|
 |**Description**|Date and time of measurement formatted as YYYY-MM-DD hh-mm-ss completed to the known precision.|
 |**Format**|YYYY-MM-DD hh:mm:ss|
-|**Format required or recommended**|Mixed|
+|**Format required or recommended**|Required|
 |**Additional Instructions**|Time zone must not change in the middle of the file (i.e., no switch to daylight savings). Time must be in 24-hour format. UTC offset must be reported in a header row in each data file. Date and time can be in separate columns if preferred. DateTime_Start column and a DateTime_End column can be used rather than a single DateTime column if applicable. If time is not relevant to the research, Date alone can be specified. If the measurement is taken over a period of time or is an average of multiple values, the data dictionary should indicate what time has been provided (i.e., "the time stamp indicates the start of the 5 minute averaging period").|
 |**Examples**|2020-03-25 13:25|  
 
