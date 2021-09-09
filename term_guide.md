@@ -17,10 +17,10 @@
 |:----------------------------------------------------|:----------------------------------------------------|
 |**required_recommended_or_optional**|Required|
 |**file**|Data File|
-|**description**|Date/time of measurement.|
+|**description**|Date and time of measurement formatted as YYYY-MM-DD hh-mm-ss completed to the known precision.|
 |**format**|YYYY-MM-DD hh:mm:ss|
 |**format_required_or_recommended**|Mixed|
-|**additional.instructions**|Time zone must not change in the middle of the file (i.e., no switch to daylight savings). Time must be in 24 hour format. UTC offset must be reported in a header row in each data file. Date and time can be in separate columns if preferred. DateTime_Start column and an DateTime_End column can be used rather than a single DateTime column if applicable. If time is not relevant to the research, Date alone can be specified. If the measurement is taken over a period of time or is an average of multiple values, the data dictionary should indicate what time has been provided (i.e., "the time stamp indicates the start of the 5 minute averaging period").|
+|**additional.instructions**|Time zone must not change in the middle of the file (i.e., no switch to daylight savings). Time must be in 24-hour format. UTC offset must be reported in a header row in each data file. Date and time can be in separate columns if preferred. DateTime_Start column and a DateTime_End column can be used rather than a single DateTime column if applicable. If time is not relevant to the research, Date alone can be specified. If the measurement is taken over a period of time or is an average of multiple values, the data dictionary should indicate what time has been provided (i.e., "the time stamp indicates the start of the 5 minute averaging period").|
 |**examples**|2020-03-25 13:25|  
 
 ### Latitude
@@ -61,7 +61,7 @@
 |:----------------------------------------------------|:----------------------------------------------------|
 |**required_recommended_or_optional**|Required|
 |**file**|Installation Methods|
-|**description**|Free text field. May contain accuracy, range, measurement interval, point to document about calibration, and/or point to document about QAQC.|
+|**description**|Free text field that provides a brief description of the approach to sensor installation or deployment. May contain a description of installation/deployment structure or environment.|
 |**format**|Free text|
 |**format_required_or_recommended**|Recommended|
 |**examples**|Sensor deployed to fixed location from top of well casing to 10 m depth. Top of well screen is at 30 m depth from top of casing and extends down 3 m.|
@@ -77,9 +77,9 @@
 |**required_recommended_or_optional**|Recommended|
 |**file**|Data File|
 |**description**|Indicator of flagged data|
-|**format**|Alphanumeric code defined by user in terminology csv|
+|**format**|Alphanumeric code (defined by user in data dictionary file or a separate file).|
 |**format_required_or_recommended**|Required|
-|**additional.instructions**|Flags to indicate additional information about the measurement. Must be defined in the data dictionary. The definition may indicate that flagged values should not be used or why to use them with particular information in mind. If values are missing, it is strongly suggested that a data flag explain why they are missing (e.g., value was below reported range of the sensor; sensor component had expired; sensor was out of the water for maintenance). A single data flag column can be used, or columns for each parameter can be used but must have characters appended to the column header to differentiate the columns.|
+|**additional.instructions**|Flags to indicate additional information about the measurement. Must be defined in the data dictionary or a separate file. The definition may indicate that flagged values should not be used or why to use them with particular information in mind. If values are missing, it is strongly suggested that a data flag explain why they are missing (e.g., value was below reported range of the sensor; sensor component had expired; sensor was out of the water for maintenance). Flags can be defined in such a way that they refer to one variable or more than one. A single data flag column can be used, or columns for each parameter can be used but must have characters appended to the column header to differentiate the columns.|
 |**examples**|DataFlag_01|
 
 ### Notes
@@ -89,7 +89,7 @@
 |**file**|Data File|
 |**description**|Any notes the user would like to include.|
 |**format**|Free text|
-|**additional.instructions**|Can include field conditions (cloud cover, weather), sensor information, field activities, etc.|
+|**additional.instructions**|Can include field conditions (cloud cover, weather), sensor information, field activities, etc. If the installation method deviates from the ID written in the InstallationMethod_ID header row section, the new InstallationMethod_ID pertaining to the deviation can be put in this column if the information is not captured elsewhere.|
 |**examples**|Collected samples for lab analyses|
 
 ### Depth
@@ -183,7 +183,7 @@
 |**description**|Water body type or local environmental context in which sensor was deployed/installed (controlled vocabulary)|
 |**format**|ENVO term and code pasted from website (https://www.ebi.ac.uk/ols/ontologies/envo)|
 |**format_required_or_recommended**|Required|
-|**additional.instructions**|One or two word description of the water body in which the sensor was deployed. Required to use ENVO ontology (https://www.ebi.ac.uk/ols/ontologies/envo) and choose the most specific term possible. Common ENVO terms include fresh water river [ENVO:01000297]; lake [ENVO:00000020]; water well [ENVO:01000002]; groundwater [ENVO:01001004]; freshwater wetland ecosystem [ENVO:00000243]; and coastal wetland ecosystem [ENVO:00000230]. More that one term may be applicable. Pick the best fit for the system.|
+|**additional.instructions**|One or two word description of the water body in which the sensor was deployed. Required to use ENVO ontology (https://www.ebi.ac.uk/ols/ontologies/envo) and choose the most specific term possible. Common ENVO terms include fresh water river [ENVO:01000297]; lake [ENVO:00000020]; water well [ENVO:01000002]; groundwater [ENVO:01001004]; freshwater wetland ecosystem [ENVO:00000243]; and coastal wetland ecosystem [ENVO:00000230]. More than one term may be applicable. Pick the best fit for the system.|
 |**examples**|fresh water river [ENVO:01000297]|
 
 ### Configuration
@@ -212,7 +212,7 @@
 |:----------------------------------------------------|:----------------------------------------------------|
 |**required_recommended_or_optional**|Optional|
 |**file**|Installation Methods|
-|**description**|Date and time use of installation method ID information  ended|
+|**description**|Date and time use of installation method ID information ended|
 |**format**|YYYY-MM-DD hh:mm:ss|
 |**format_required_or_recommended**|Required|
 |**examples**|2020-03-25 15:45|
