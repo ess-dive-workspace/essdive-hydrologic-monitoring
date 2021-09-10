@@ -4,7 +4,7 @@
 The ESS-DIVE Hydrologic Monitoring Reporting Format is intended for water level, temperature, electrical conductivity, specific conductance, dissolved oxygen, and pH data measured in situ using sensors deployed in water bodies. The user can also include data from variables/parameters outside the scope.
 
 ## Quickstart Guide
-1 - **Read the Instructions file** 
+1 - **Read the [Instructions file](instructions.md)** 
 
 2 - **Download the four templates (Data, Installation Methods, File-Level Metdata, Data Dictionary).** There are MS Excel versions with instructions and examples included, and there are csv versions with no guidance content. See the **Term Guide** for guidance as needed.
   
