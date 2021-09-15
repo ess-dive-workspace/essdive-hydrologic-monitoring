@@ -1,4 +1,4 @@
-# Hydrologic Monitoring Reporting Format Guide
+# Hydrologic Monitoring Reporting Format Term Guide
 
 ## Required Fields
 [DateTime](#datetime) | [Latitude](#latitude) | [Longitude](#longitude) | [InstallationMethod_ID](#installationmethod_id) | [InstallationMethod_Description](#installationmethod_description) 
