@@ -4,8 +4,8 @@
 [DateTime](#datetime) | [Latitude](#latitude) | [Longitude](#longitude) | [InstallationMethod_ID](#installationmethod_id) | [InstallationMethod_Description](#installationmethod_description) 
 
 ## Optional Fields
-[DataFlag](#dataflag) | [Notes](#notes) | [Depth](#depth) | [Depth_Unit](#depth_unit) | [Depth_Reference](#depth_reference) | [Elevation](#elevation) |
-[Elevation_Unit](#elevation_unit) |[Elevation_Reference](#elevation_reference) | [Site_ID](#site_id) | [Site_Name](#site_name) |[Water_Name](#water_name) |
+[DataFlag](#dataflag) | [Notes](#notes) | [Depth](#depth) | [Depth_Reference](#depth_reference) | [Elevation](#elevation) |
+[Elevation_Reference](#elevation_reference) | [Site_ID](#site_id) | [Site_Name](#site_name) |[Water_Name](#water_name) |
 [Site_Type](#site_type) | [Configuration](#configuration) | [DateTime_Start](#datetime_start) | [DateTime_End](#datetime_end) | [UTC_Offset](#utc_offset) 
 
 
@@ -62,8 +62,8 @@
 |**Required recommended or optional**|Required|
 |**File**|Installation Methods|
 |**Description**|Free text field that provides a brief description of the approach to sensor installation or deployment. May contain a description of installation/deployment structure or environment.|
-|**Format**|Free text|
-|**Format required or recommended**|Recommended|
+|**Format**|Text|
+|**Format required or recommended**|Required|
 |**Examples**|Sensor deployed to fixed location from top of well casing to 10 m depth. Top of well screen is at 30 m depth from top of casing and extends down 3 m.|
 
 
@@ -78,7 +78,7 @@
 |**File**|Data File|
 |**Description**|Indicator of flagged data|
 |**Format**|Alphanumeric code (defined by user in data dictionary file or a separate file).|
-|**Format required or recommended**|Required|
+|**Format required or recommended**|Recommended|
 |**Additional Instructions**|Flags to indicate additional information about the measurement. Must be defined in the data dictionary or a separate file. The definition may indicate that flagged values should not be used or why to use them with particular information in mind. If values are missing, it is strongly suggested that a data flag explain why they are missing (e.g., value was below reported range of the sensor; sensor component had expired; sensor was out of the water for maintenance). Flags can be defined in such a way that they refer to one variable or more than one. A single data flag column can be used, or columns for each parameter can be used but must have characters appended to the column header to differentiate the columns.|
 |**Examples**|DataFlag_01|
 
@@ -88,7 +88,8 @@
 |**Required recommended or optional**|Recommended|
 |**File**|Data File|
 |**Description**|Any notes the user would like to include.|
-|**Format**|Free text|
+|**Format**|Text|
+|**Format required or recommended**|Recommended|
 |**Additional Instructions**|Can include field conditions (cloud cover, weather), sensor information, field activities, etc. If the installation method deviates from the ID written in the InstallationMethod_ID header row section, the new InstallationMethod_ID pertaining to the deviation can be put in this column if the information is not captured elsewhere.|
 |**Examples**|Collected samples for lab analyses|
 
@@ -102,15 +103,6 @@
 |**Format required or recommended**|Required|
 |**Examples**|10.5|
 
-### Depth_Unit
-|Metadata_Element|Depth_Unit|
-|:----------------------------------------------------|:----------------------------------------------------|
-|**Required recommended or optional**|Optional|
-|**File**|Installation Methods|
-|**Description**|Unit for depth measurement|
-|**Rormat**|Text|
-|**Examples**|centimeters|
-
 ### Depth_Reference
 |Metadata_Element|Depth_Reference|
 |:----------------------------------------------------|:----------------------------------------------------|
@@ -118,7 +110,8 @@
 |**File**|Installation Methods|
 |**Description**|Reference for depth value|
 |**Format**|Text|
-|**Examples**|Below ground surface|
+|**Format required or recommended**|Recommended|
+|**Examples**|meters below ground surface|
 
 ### Elevation
 |Metadata_Element|Elevation|
@@ -130,15 +123,6 @@
 |**Format required or recommended**|Required|
 |**Examples**|104.5|
 
-### Elevation_Unit
-|Metadata_Element|Elevation_Unit|
-|:----------------------------------------------------|:----------------------------------------------------|
-|**Required recommended or optional**|Optional|
-|**File**|Installation Methods|
-|**Description**|Unit for elevation measurement|
-|**Format**|Text|
-|**Examples**|meters|
-
 ### Elevation_Reference
 |Metadata_Element|Elevation_Reference|
 |:----------------------------------------------------|:----------------------------------------------------|
@@ -146,7 +130,8 @@
 |**File**|Installation Methods|
 |**Description**|Reference datum for elevation value|
 |**Format**|Text|
-|**Examples**|Above mean sea level (NAVD88)|
+|**Format required or recommended**|Recommended|
+|**Examples**|meters above mean sea level (NAVD88)|
 
 ### Site_ID
 |Metadata_Element|SiteID|
@@ -155,6 +140,7 @@
 |**File**|Installation Methods|
 |**Description**|ID of site|
 |**Format**|Alphanumeric|
+|**Format required or recommended**|Recommended|
 |**Examples**|SWS-1|
 
 ### Site_Name
@@ -164,6 +150,7 @@
 |**File**|Installation Methods|
 |**Description**|Full name of site|
 |**Format**|Text|
+|**Format required or recommended**|Recommended|
 |**Examples**|Hanford 300 Area|
 
 ### Water_Name
@@ -173,6 +160,7 @@
 |**File**|Installation Methods|
 |**Description**|Full name of water body|
 |**Format**|Text|
+|**Format required or recommended**|Recommended|
 |**Examples**|Columbia River|
 
 ### Site_Type
