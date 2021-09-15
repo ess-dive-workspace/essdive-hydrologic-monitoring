@@ -6,14 +6,14 @@ The ESS-DIVE Hydrologic Monitoring Reporting Format is intended for water level,
 ## Quickstart Guide
 1 - **Read the [Instructions file](HydroRF_Instructions.md)** essdive-hydrologic-monitoring/templates/
 
-2 - **Download the [four templates](essdive-hydrologic-monitoring/templates/) ([Data](essdive-hydrologic-monitoring/templates/HydroRF_Template_Data.xlsx), Installation Methods, [File-Level Metadata](essdive-hydrologic-monitoring/templates/HydroRF_Template_FLMD.xlsx), and [Data Dictionary](essdive-hydrologic-monitoring/templates/HydroRF_Template_dd.xlsx)).** There are MS Excel versions with instructions and examples included, and there are csv versions with no guidance content. See the **Term Guide** for guidance as needed.
+2 - **Download the [four templates](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/tree/main/templates) ([Data](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/templates/HydroRF_Template_DataFile.xlsx), Installation Methods, [File-Level Metadata](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/templates/HydroRF_Template_FLMD.xlsx), and [Data Dictionary](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/templates/HydroRF_Template_dd.xlsx)).** There are MS Excel versions with instructions and examples included, and there are csv versions with no guidance content. See the **Term Guide** for guidance as needed.
   
 3 - **Review the [Recommended Vocabulary File](HydroRF_RecommendedVocabulary.md)** for suggested column headers for your data file(s). If you choose to use your own column headers, the only allowed special characters are underscores and hyphens. No spaces are allowed.
   
-4 - **Populate all required fields** in the templates and **populate optional fields as desired**. No empty cells are permitted. Omit the optional columns you do not populate.  **Find the full list of fields to populate in the MS Excel templates** and in the **[Term Guide file](HydroRF_Term_Guide.md)**
+4 - **Populate all required fields** in the templates and **populate optional fields as desired**. No empty cells are permitted. Omit the optional columns you do not populate.  **Find the full list of fields to populate in the MS Excel templates** and in the **[Term Guide file](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/HydroRF_Term_Guide.md)**
 
 
-## A Quick Look at the [Templates](essdive-hydrologic-monitoring/templates/)
+## A Quick Look at the [Templates](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/tree/main/templates)
 Screengrabs of the Data File and Installation Methods templates with the required fields filled in with example information are below. The MS Excel templates include these examples and examples that include optional fields. 
 
 #### Data File template (required fields only):
