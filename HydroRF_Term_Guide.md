@@ -31,7 +31,7 @@
 |**Description**|Geographic location (latitude)|
 |**Format**|Decimal degrees WGS84|
 |**Format required or recommended**|Required|
-|**Additional Instructions**|North/South and East/West should be indicated with positive and negative values rather than letters.|
+|**Additional Instructions**|North/South should be indicated with positive and negative values rather than letters.|
 |**Examples**|43.319487|
 
 ### Longitude
@@ -42,7 +42,7 @@
 |**Description**|Geographic location (longitude)|
 |**Format**|Decimal degrees WGS84|
 |**Format required or recommended**|Required|
-|**Additional Instructions**|North/South and East/West should be indicated with positive and negative values rather than letters.|
+|**Additional Instructions**|East/West should be indicated with positive and negative values rather than letters.|
 |**Examples**|-119.259388|
 
 ### InstallationMethod_ID 
