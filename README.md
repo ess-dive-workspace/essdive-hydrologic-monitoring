@@ -17,7 +17,7 @@ The ESS-DIVE Hydrologic Monitoring Reporting Format is intended for water level,
 Screengrabs of the Data File and Installation Methods templates with the required fields filled in with example information are below. The MS Excel templates include these examples and examples that include optional fields. 
 
 #### Data File template (required fields only):
-![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/Graphic_Quick-Look_Required-Fields_Data.PNG "Data File template (required fields only)")
+![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/Graphic_Quick-Look_Required-Fields_DataFile.PNG "Data File template (required fields only)")
 
 #### Installation Methods template (required fields only):
 ![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/Graphic_Quick-Look_Required-Fields_InstallationMethods.PNG "Sensor Metadata template (required fields only)")
