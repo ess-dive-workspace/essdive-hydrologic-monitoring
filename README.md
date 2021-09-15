@@ -4,7 +4,7 @@
 The ESS-DIVE Hydrologic Monitoring Reporting Format is intended for water level, temperature, electrical conductivity, specific conductance, dissolved oxygen, and pH data measured in situ using sensors deployed in water bodies. The user can also include data from variables/parameters outside the scope.
 
 ## Quickstart Guide
-1 - **Read the [Instructions file](HydroRF_Instructions.md)** essdive-hydrologic-monitoring/templates/
+1 - **Read the [Instructions file](HydroRF_Instructions.md)** 
 
 2 - **Download the [four templates](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/tree/main/templates) ([Data](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/templates/HydroRF_Template_DataFile.xlsx), [Installation Methods](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/templates/HydroRF_Template_InstallationMethods.xlsx), [File-Level Metadata](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/templates/HydroRF_Template_FLMD.xlsx), and [Data Dictionary](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/templates/HydroRF_Template_dd.xlsx)).** There are MS Excel versions with instructions and examples included, and there are csv versions with no guidance content. See the **Term Guide** for guidance as needed.
   
