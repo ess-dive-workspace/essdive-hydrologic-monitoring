@@ -8,7 +8,7 @@ The ESS-DIVE Hydrologic Monitoring Reporting Format is intended for water level,
 
 2 - **Download the [four templates](essdive-hydrologic-monitoring/templates/) (Data, Installation Methods, File-Level Metdata, Data Dictionary).** There are MS Excel versions with instructions and examples included, and there are csv versions with no guidance content. See the **Term Guide** for guidance as needed.
   
-3 - **Download the [Recommended Vocabulary File](HydroRF_RecommendedVocabulary.csv)** for suggested column headers for your data file(s). If you choose to use your own column headers, the only allowed special characters are underscores and hyphens. No spaces are allowed.
+3 - **Review the [Recommended Vocabulary File](HydroRF_RecommendedVocabulary.md)** for suggested column headers for your data file(s). If you choose to use your own column headers, the only allowed special characters are underscores and hyphens. No spaces are allowed.
   
 4 - **Populate all required fields** in the templates and **populate optional fields as desired**. No empty cells are permitted. Omit the optional columns you do not populate.  **Find the full list of fields to populate in the MS Excel templates** and in the **[Term Guide file](HydroRF_Term_Guide.md)**
 
