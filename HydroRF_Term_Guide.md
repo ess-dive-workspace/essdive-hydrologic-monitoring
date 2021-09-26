@@ -26,24 +26,35 @@
 ### Latitude
 |Metadata_Element|Latitude|
 |:----------------------------------------------------|:----------------------------------------------------|
-|**Required recommended or optional**|Required|
+|**Required recommended or optional**|Conditional. See additional instructions.|
 |**File**|Data File or Installation Methods|
 |**Description**|Geographic location (latitude)|
 |**Format**|Decimal degrees WGS84|
 |**Format required or recommended**|Required|
-|**Additional Instructions**|North/South should be indicated with positive and negative values rather than letters.|
+|**Additional Instructions**|North/South should be indicated with positive and negative values rather than letters. If the latitude and longitude of the sensors have not been published in a publicly available dataset previously, the latitude and longitude must be reported in either the data file(s) or the installation methods file. If the latitude and longitude of the sensors have been published in a publicly available dataset previously and associated with a site ID unique to the coordinates, the site ID must be reported in either the data file(s) or the installation methods file instead of the coordinates. To reduce potential error across the datasets, this RF recommends you do not also include the previously published coordinates. You must put the reference to the previously published dataset in the FLMD and include the name of the published data column that corresponds directly to Site_ID if not named identically. You may also choose to include the information for the previously published dataset in the data dictionary definition of “Site_ID” and during upload in the ESS-DIVE dataset-level metadata “related references” field. Please note that if you plan to include sensor coordinates that differ from the previously published coordinates associated with the site ID, you should follow the guidance for coordinates not previously published.|
 |**Examples**|43.319487|
 
 ### Longitude
 |Metadata_Element|Longitude|
 |:----------------------------------------------------|:----------------------------------------------------|
-|**Required recommended or optional**|Required|
+|**Required recommended or optional**|Conditional. See additional instructions.|
 |**File**|Data File or Installation Methods|
 |**Description**|Geographic location (longitude)|
 |**Format**|Decimal degrees WGS84|
 |**Format required or recommended**|Required|
-|**Additional Instructions**|East/West should be indicated with positive and negative values rather than letters.|
+|**Additional Instructions**|East/West should be indicated with positive and negative values rather than letters. If the latitude and longitude of the sensors have not been published in a publicly available dataset previously, the latitude and longitude must be reported in either the data file(s) or the installation methods file. If the latitude and longitude of the sensors have been published in a publicly available dataset previously and associated with a site ID unique to the coordinates, the site ID must be reported in either the data file(s) or the installation methods file instead of the coordinates. To reduce potential error across the datasets, this RF recommends you do not also include the previously published coordinates. You must put the reference to the previously published dataset in the FLMD and include the name of the published data column that corresponds directly to Site_ID if not named identically. You may also choose to include the information for the previously published dataset in the data dictionary definition of “Site_ID” and during upload in the ESS-DIVE dataset-level metadata “related references” field. Please note that if you plan to include sensor coordinates that differ from the previously published coordinates associated with the site ID, you should follow the guidance for coordinates not previously published.|
 |**Examples**|-119.259388|
+
+### Site_ID
+|Metadata_Element|Site_ID|
+|:----------------------------------------------------|:----------------------------------------------------|
+|**Required recommended or optional**|Conditional|
+|**File**|Data File or Installation Methods|
+|**Description**|ID of site|
+|**Format**|Alphanumeric|
+|**Format required or recommended**|Recommended|
+|**Additional Instructions**|If the latitude and longitude of the sensors have not been published in a publicly available dataset previously, the latitude and longitude must be reported in either the data file(s) or the installation methods file. If the latitude and longitude of the sensors have been published in a publicly available dataset previously and associated with a site ID unique to the coordinates, the site ID must be reported in either the data file(s) or the installation methods file instead of the coordinates. To reduce potential error across the datasets, this RF recommends you do not also include the previously published coordinates. You must put the reference to the previously published dataset in the FLMD and include the name of the published data column that corresponds directly to Site_ID if not named identically. You may also choose to include the information for the previously published dataset in the data dictionary definition of “Site_ID” and during upload in the ESS-DIVE dataset-level metadata “related references” field. Please note that if you plan to include sensor coordinates that differ from the previously published coordinates associated with the site ID, you should follow the guidance for coordinates not previously published.|
+|**Examples**|SWS-1|
 
 ### InstallationMethod_ID 
 |Metadata_Element|InstallationMethod_ID|
@@ -133,18 +144,8 @@
 |**Format required or recommended**|Recommended|
 |**Examples**|meters above mean sea level (NAVD88)|
 
-### Site_ID
-|Metadata_Element|SiteID|
-|:----------------------------------------------------|:----------------------------------------------------|
-|**Required recommended or optional**|Optional|
-|**File**|Installation Methods|
-|**Description**|ID of site|
-|**Format**|Alphanumeric|
-|**Format required or recommended**|Recommended|
-|**Examples**|SWS-1|
-
 ### Site_Name
-|Metadata_Element|SiteName|
+|Metadata_Element|Site_Name|
 |:----------------------------------------------------|:----------------------------------------------------|
 |**Required recommended or optional**|Optional|
 |**File**|Installation Methods|
@@ -154,7 +155,7 @@
 |**Examples**|Hanford 300 Area|
 
 ### Water_Name
-|Metadata_Element|WaterName|
+|Metadata_Element|Water_Name|
 |:----------------------------------------------------|:----------------------------------------------------|
 |**Required recommended or optional**|Recommended|
 |**File**|Installation Methods|
