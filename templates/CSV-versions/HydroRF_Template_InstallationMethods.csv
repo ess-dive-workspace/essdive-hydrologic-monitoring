@@ -1,8 +1,0 @@
-InstallationMethod_ID,InstallationMethod_Description,Latitude,Longitude,Depth,Depth_Reference,Elevation,Elevation_Reference,Site_ID,Site_Name,Water_Name,Site_Type,Configuration,DateTime_Start,DateTime_End,UTC_Offset,
-Required,Required,Conditional: must either be in data file or in deployment method file. Does not have to be in both.,Conditional: must either be in data file or in deployment method file. Does not have to be in both.,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Conditional,NOTE: Delete this row before template use.
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
