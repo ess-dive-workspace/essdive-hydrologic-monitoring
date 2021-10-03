@@ -38,3 +38,4 @@ This repository content is licensed for use under the CC BY 4.0 license (https:/
 Funding for the development of ESS-DIVE Hydrologic Monitoring Reporting Format was provided by the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research, Climate and Environmental Science Division, Data Management program.
 
 ## Recommended citation
+Goldman A E ; Ren H ; Torgeson J ; Zhou H (2021): ESS-DIVE Reporting Format for Hydrologic Monitoring Data and Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE). doi:10.15485/1822940
