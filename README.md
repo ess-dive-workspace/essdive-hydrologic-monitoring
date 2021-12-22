@@ -24,8 +24,6 @@ Screengrabs of the Data File and Installation Methods templates with the require
 
 #### Installation Methods template (required fields only):
 ![](.gitbook/assets/Graphic_Quick-Look_Required-Fields_InstallationMethods.PNG)
-![](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/.gitbook/assets/Graphic_Quick-Look_Required-Fields_InstallationMethods.PNG)
-
 
 ## How to contribute
 This ESS-DIVE Hydrologic Monitoring Reporting Format is evolving and growing to meet the needs of the community. Feedback and new contributions are welcome. If you would like to suggest a change to the Reporting Format please submit a GitHub issue using one of the templates we provide.
