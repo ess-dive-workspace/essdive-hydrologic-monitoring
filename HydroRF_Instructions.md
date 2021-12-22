@@ -42,7 +42,7 @@ This Reporting Format includes the following
  * **Second header row** indicates the format for the subsequent header rows, including the (1) column header, (2) units, (3) corresponding InstallationMethod_ID from the Installation Methods file, and (4) a free text Instrument_Summary (i.e., make, model). **Each one of these four sections of a header row is separated by a semicolon and space.**
  * **Subsequent header rows** present metadata about each column of measured/logged/calculated data by following the format defined in the second header row. They are not needed for columns that present other information (e.g., notes). If a header row does not have information for one of the four sections defined in the format from the second header row, ‘N/A’ should be written in the place of information rather than skipping one of the four  sections. 
  * The figure below provides an example with an explanation. 
-![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/Graphic_Instructions_HeaderRows.png "Example and explanation of data file metadata header rows")
+![](.gitbook/assets/Graphic_Instructions_HeaderRows.png)
 
 ### MULTIPLE SENSORS
 * The user should populate one Installation Methods file and one FLMD file that applies to the whole dataset irrespective of the number of data files. 
@@ -54,7 +54,7 @@ This Reporting Format includes the following
     * Approach #1 **[Preferred option]**: Two sensors each with a separate data file with one column for pH.
     * Approach #2: Two sensors compiled in one data file with columns for pH_1 and pH_2.
     * Approach #3: Two sensors compiled in one data file with one column for pH and one column for Sensor_ID.
-![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/Graphic_Instructions_FileOrganization.png "Options for number and structure of files")
+![](.gitbook/assets/Graphic_Instructions_FileOrganization.png)
 
 ### ADDITIONAL CONTENT
 * Users are encouraged to include raw data files, sensor specification PDFs from manufacturers, code used for data collection or data processing, or links to relevant GitHub content. Users can also include documents describing sensor calibration, QA/QC, or other information.
@@ -67,4 +67,4 @@ This Reporting Format includes the following
 
 ### WATER LEVEL TERMS
 * See below for an illustration of some of the recommended vocabulary file’s terms. Some measurements have multiple synonymous terms. There is a great diversity of hydrologic terms and communities. These terms were chosen for their application across multiple disciplines and types of deployments and for their common use across data sources, repositories, and standards.  	 
-![alt text](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/graphics/Graphic_RecommendedVocabulary_HydrologicTerms.png "Recommended vocaulary terms related to water level")
+![](.gitbook/assets/Graphic_RecommendedVocabulary_HydrologicTerms.png)
