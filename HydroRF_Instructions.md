@@ -41,7 +41,8 @@ This Reporting Format includes the following
  * **First header row** indicates the total number of header rows, including the first row that defines the number of header rows down to the final header row that lists the column headers before presenting the data values. 
  * **Second header row** indicates the format for the subsequent header rows, including the (1) column header, (2) units, (3) corresponding InstallationMethod_ID from the Installation Methods file, and (4) a free text Instrument_Summary (i.e., make, model). **Each one of these four sections of a header row is separated by a semicolon and space.**
  * **Subsequent header rows** present metadata about each column of measured/logged/calculated data by following the format defined in the second header row. They are not needed for columns that present other information (e.g., notes). If a header row does not have information for one of the four sections defined in the format from the second header row, ‘N/A’ should be written in the place of information rather than skipping one of the four  sections. 
- * The figure below provides an example with an explanation. 
+ * The figure below provides an example with an explanation.  
+
 ![](.gitbook/assets/Graphic_Instructions_HeaderRows.png)
 
 ### MULTIPLE SENSORS
@@ -53,7 +54,8 @@ This Reporting Format includes the following
   * Examples of the three approaches are described and illustrated below (metadata header rows are not shown):
     * Approach #1 **[Preferred option]**: Two sensors each with a separate data file with one column for pH.
     * Approach #2: Two sensors compiled in one data file with columns for pH_1 and pH_2.
-    * Approach #3: Two sensors compiled in one data file with one column for pH and one column for Sensor_ID.
+    * Approach #3: Two sensors compiled in one data file with one column for pH and one column for Sensor_ID.  
+ 
 ![](.gitbook/assets/Graphic_Instructions_FileOrganization.png)
 
 ### ADDITIONAL CONTENT
@@ -66,5 +68,6 @@ This Reporting Format includes the following
 * 2 – If the latitude and longitude of your sensors have been published in a publicly available dataset previously and associated with a site ID unique to the coordinates, the site ID must be reported in either the data file(s) or the installation methods file instead of the coordinates. To reduce potential error across the datasets, this RF recommends you do not also include the previously published coordinates. You must put the reference to the previously published dataset in the FLMD and include the name of the published data column that corresponds directly to Site_ID if not named identically. You may also choose to include the information for the previously published dataset in the data dictionary definition of “Site_ID” and during upload in the ESS-DIVE dataset-level metadata “related references” field. Please note that if you plan to include sensor coordinates that differ from the previously published coordinates associated with the site ID, you should follow the guidance in option #1.
 
 ### WATER LEVEL TERMS
-* See below for an illustration of some of the recommended vocabulary file’s terms. Some measurements have multiple synonymous terms. There is a great diversity of hydrologic terms and communities. These terms were chosen for their application across multiple disciplines and types of deployments and for their common use across data sources, repositories, and standards.  	 
+* See below for an illustration of some of the recommended vocabulary file’s terms. Some measurements have multiple synonymous terms. There is a great diversity of hydrologic terms and communities. These terms were chosen for their application across multiple disciplines and types of deployments and for their common use across data sources, repositories, and standards.  
+
 ![](.gitbook/assets/Graphic_RecommendedVocabulary_HydrologicTerms.png)
