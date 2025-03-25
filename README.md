@@ -3,6 +3,9 @@
 ## About the Hydrological Monitoring Reporting Format
 The ESS-DIVE Hydrologic Monitoring Reporting Format is intended for water level, temperature, electrical conductivity, specific conductance, dissolved oxygen, and pH data measured in situ using sensors deployed in water bodies. The user can also include data from variables/parameters outside the scope. 
 
+## Updates in v1.0.1
+In March 2025, a patch version of the Hydrologic Monitoring reporting format was made to improve the overall experience with the associated reporting format documentation. Additionally, the standard reporting format keyword and standard term were added to the HydroRF_Instructions.md file.
+
 ## Access
 Read about the Reporting Format and access all of the files at the [GitBook](https://ess-dive.gitbook.io/hydrologic-monitoring-data-and-metadata/), [GitHub](https://github.com/ess-dive-workspace/essdive-hydrologic-monitoring), or ESS-DIVE dataset. If you're new to the Reporting Format, we recommend using the [GitBook](https://ess-dive.gitbook.io/hydrologic-monitoring-data-and-metadata/).
 
@@ -24,9 +27,6 @@ Screengrabs of the Data File and Installation Methods templates with the require
 
 #### Installation Methods template (required fields only):
 ![](.gitbook/assets/Graphic_Quick-Look_Required-Fields_InstallationMethods.PNG)
-
-## Updates in v1.0.1
-In March 2025, a patch version of the Hydrologic Monitoring reporting format was made to improve the overall experience with the associated reporting format documentation. Additionally, the standard reporting format keyword and standard term were added to the HydroRF_Instructions.md file.
 
 ## How to contribute
 This ESS-DIVE Hydrologic Monitoring Reporting Format is evolving and growing to meet the needs of researchers. Feedback and new contributions are welcome. If you would like to suggest a change to the Reporting Format please submit a GitHub issue using one of the templates we provide.
