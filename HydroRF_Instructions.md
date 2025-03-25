@@ -3,7 +3,8 @@
 ### SCOPE 
 * The ESS-DIVE Hydrologic Monitoring Reporting Format (RF) is intended for water level, temperature, electrical conductivity, specific conductance, dissolved oxygen, and pH data measured in situ using sensors deployed in water bodies. **The user can also include data from variables/parameters outside the scope.**
 * This RF is designed to be flexible for each user’s needs. Aside from required template fields, the user should only populate their file with the template fields relevant to their data. **The user can also include other columns beyond what is specified in the templates.**
-* This RF is designed to comply with other ESS-DIVE RFs, including the ESS-DIVE File Level Metadata (FLMD) and CSV RFs.  
+* This RF is designed to comply with other ESS-DIVE RFs, including the ESS-DIVE File Level Metadata (FLMD) and CSV RFs.
+* Within the FLMD file, the [standard](https://github.com/ess-dive-workspace/essdive-file-level-metadata/blob/main/flmd_quick_guide.md#standard) for each hydrologic monitoring reporting format related file should be **ESS-DIVE Hydrologic Monitoring v1**. If submitting your dataset to ESS-DIVE, include the keyword **ESS-DIVE Hydrologic Monitoring Reporting Format** in the package-level metadata. 
 
 ### CONTENT
 This Reporting Format includes the following 
@@ -11,10 +12,10 @@ This Reporting Format includes the following
   * This **Instructions** file.
   * **[Recommended Vocabulary](HydroRF_RecommendedVocabulary.md)**: A file with recommended column headers for measured variables.
 * Four templates for required files that are available as MS Excel spreadsheets with instructions and examples and as csv templates with no  guidance content. The user must save their final populated files as csv files.
-  * **(1) [Data File template](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/templates/HydroRF_Template_DataFile.xlsx)**: A template for sensor data. 
-  * **(2) [Installation Methods template](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/templates/HydroRF_Template_InstallationMethods.xlsx)**: A template for metadata about the installation (i.e., location, type of water body).
-  * **(3) [File-Level Metadata template](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/templates/HydroRF_Template_FLMD.xlsx)**: A template for listing a file name and description for every file included in the dataset (requirement of FLMD RF). 
-  * **(4) [Data Dictionary template](https://github.com/ess-dive-community/essdive-hydrologic-monitoring/blob/main/templates/HydroRF_Template_dd.xlsx)**: A template for defining information about column headers and other terms contained in any csv files from the dataset (requirement of FLMD RF).
+  * **(1) [Data File template](templates/HydroRF_Template_DataFile.xlsx)**: A template for sensor data. 
+  * **(2) [Installation Methods template](templates/HydroRF_Template_InstallationMethods.xlsx)**: A template for metadata about the installation (i.e., location, type of water body).
+  * **(3) [File-Level Metadata template](templates/HydroRF_Template_FLMD.xlsx)**: A template for listing a file name and description for every file included in the dataset (requirement of FLMD RF). 
+  * **(4) [Data Dictionary template](templates/HydroRF_Template_dd.xlsx)**: A template for defining information about column headers and other terms contained in any csv files from the dataset (requirement of FLMD RF).
     *  Users may choose to provide a single data dictionary to describe column headers provided across all files or create a separate data dictionary for each csv file.
 
 ### NAMING CONVENTION
